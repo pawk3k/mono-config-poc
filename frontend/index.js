@@ -42,7 +42,17 @@ module.exports = {
       }
     ],
   },
-  overrides: []
+  "overrides": [
+    {
+      "files": ["**/*.jsx"],
+      "rules": {
+        "complexity": [
+          "error",
+          10
+        ]
+      }
+    }
+  ],
   plugins: [
     'import',
     'jsx-a11y'
