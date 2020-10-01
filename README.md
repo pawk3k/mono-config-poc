@@ -14,3 +14,6 @@
 ├── index.js # entry point pointig at common.js
 └── package.json
 ```
+
+### @masterborn/eslint-config/frontend
+It uses @babel/eslint-parser which requires babel config file. More info on the parser can be found [here](https://github.com/babel/babel/tree/master/eslint/babel-eslint-parser).

@@ -1,6 +1,10 @@
 module.exports = {
-  extends: ['airbnb-base', '../common.js'],
-  parser: 'babel-eslint',
+  extends: [
+    '../common.js',
+    'airbnb',
+    'airbnb/hooks',
+  ],
+  parser: "@babel/eslint-parser",
   rules: {
     'jsx-a11y/href-no-hash': 'off',
     'jsx-a11y/anchor-is-valid': [
@@ -42,7 +46,10 @@ module.exports = {
       }
     ],
   },
-  "overrides": [
+  env: {
+    browser: true
+  },
+  overrides: [
     {
       "files": ["**/*.jsx"],
       "rules": {
