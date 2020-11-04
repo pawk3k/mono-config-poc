@@ -10,6 +10,7 @@
     "eslint",
     "eslintconfig"
   ],
+  "private": false,
   "author": "MasterBorn Sp. z o.o.",
   "license": "MIT",
   "dependencies": {},
@@ -36,6 +37,9 @@
   },
   "bugs": {
     "url": "https://github.com/masterborn/eslint-config/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "homepage": "https://github.com/masterborn/eslint-config#readme"
 }
