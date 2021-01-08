@@ -20,4 +20,8 @@ It uses @babel/eslint-parser which requires babel config file. More info on the 
 
 ### @masterborn/eslint-config/frontend/typescript
 Configuration for TypeScript support.
-Install peer dependencies and add `tsconfig.json` to your root directory. There is some boilerplate `tsconfig.template.json` that can help you get started.
+Install peer dependencies and add `tsconfig.json` to your root directory.
+
+### @masterborn/eslint-config/backend/typescript
+Configuration for TypeScript support.
+Install peer dependencies and add `tsconfig.json` to your root directory.
