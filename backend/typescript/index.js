@@ -36,6 +36,7 @@ module.exports = {
         "after": true
       }
     ],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "import/no-default-export": "error"
   }
 }
