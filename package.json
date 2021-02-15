@@ -1,6 +1,6 @@
 {
   "name": "@masterborn/eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "MasterBorn ESLint configurations",
   "main": "index.js",
   "scripts": {
