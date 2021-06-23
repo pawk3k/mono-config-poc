@@ -15,6 +15,8 @@ module.exports = {
             files: ["**/*.tsx"],
             rules: {
                 "complexity": ["error", 10],
+                "react/prop-types": "off",
+                "react/jsx-props-no-spreading": "off"
             }
         },
         {
@@ -25,4 +27,11 @@ module.exports = {
             }
         },
     ],
+    settings: {
+        "import/resolver": {
+            typescript: {
+                "alwaysTryTypes": true
+            }
+        }
+    }
 }
