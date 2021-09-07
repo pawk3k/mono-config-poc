@@ -31,6 +31,7 @@ module.exports = {
         allowChildren: false
       }
     ],
+    'react/jsx-no-useless-fragment': 'error',
     'react/jsx-filename-extension': 'off',
     'import/no-named-as-default': 'off',
     'import/order': [
