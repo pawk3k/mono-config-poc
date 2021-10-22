@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['../common.js'],
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   plugins: [
     "import"
   ],
