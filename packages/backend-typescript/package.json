@@ -1,0 +1,19 @@
+{
+  "name": "@masterborn/eslint-config-backend-typescript",
+  "version": "0.0.14",
+  "description": "MasterBorn ESLint backend typescript configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "dependencies": {
+    "@masterborn/eslint-config-backend": "^0.0.14"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=4.8.1",
+    "@typescript-eslint/parser": ">=4.8.1",
+    "eslint-config-airbnb-typescript": ">=12.0.0",
+    "eslint-import-resolver-typescript": ">=2.4.0"
+  }
+}
