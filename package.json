@@ -16,9 +16,8 @@
   "private": false,
   "author": "MasterBorn Sp. z o.o.",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.7.0"
+    "eslint": "^7.32.0"
   },
   "engines": {
     "node": ">= 12",
