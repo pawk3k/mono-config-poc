@@ -3,6 +3,9 @@
   "version": "0.0.14",
   "description": "MasterBorn ESLint configurations",
   "main": "index.js",
+  "workspaces": [
+    "./packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,26 +16,12 @@
   "private": false,
   "author": "MasterBorn Sp. z o.o.",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.7.0"
-  },
-  "peerDependencies": {
-    "@babel/core": ">=7.11.1",
-    "@babel/eslint-parser": ">=7.11.3",
-    "@typescript-eslint/eslint-plugin": ">=4.8.1",
-    "@typescript-eslint/parser": ">=4.8.1",
-    "eslint-config-airbnb": ">=18.2.0",
-    "eslint-config-airbnb-base": ">=14.2.0",
-    "eslint-config-airbnb-typescript": ">=12.0.0",
-    "eslint-import-resolver-typescript": ">=2.4.0",
-    "eslint-plugin-import": ">=2.22.0",
-    "eslint-plugin-jsx-a11y": ">=6.3.1",
-    "eslint-plugin-react": ">=7.20.6",
-    "eslint-plugin-react-hooks": ">=4.1.0"
+    "eslint": "^7.32.0"
   },
   "engines": {
-    "node": ">= 12"
+    "node": ">= 12",
+    "npm": ">= 7"
   },
   "repository": {
     "type": "git",

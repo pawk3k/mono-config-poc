@@ -1,0 +1,18 @@
+{
+  "name": "@masterborn/eslint-config-frontend",
+  "version": "0.0.14",
+  "description": "MasterBorn ESLint frontend configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "dependencies": {
+    "@masterborn/eslint-config-common": "^0.0.14"
+  },
+  "peerDependencies": {
+    "eslint-plugin-jsx-a11y": ">=6.3.1",
+    "eslint-config-airbnb": ">=18.2.0",
+    "eslint-plugin-react-hooks": ">=4.1.0"
+  }
+}
