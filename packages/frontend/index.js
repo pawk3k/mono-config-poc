@@ -46,6 +46,9 @@ module.exports = {
           ]
         }
       ],
+      'sort-destructure-keys/sort-destructure-keys': 'error',
+      'sort-keys-fix/sort-keys-fix': 'error',
+      'react/jsx-sort-props': 'error'
     },
     env: {
       browser: true
@@ -63,7 +66,8 @@ module.exports = {
     ],
     plugins: [
       'import',
-      'jsx-a11y'
-    ],
-  }
-  
+      'jsx-a11y',
+      'sort-destructure-keys',
+      'sort-keys-fix'
+  ],
+}
