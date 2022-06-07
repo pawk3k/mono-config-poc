@@ -8,12 +8,10 @@
   },
   "private": false,
   "dependencies": {
-    "@masterborn/eslint-config-frontend": "^0.1.0"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=4.8.1",
-    "@typescript-eslint/parser": ">=4.8.1",
-    "eslint-config-airbnb-typescript": ">=12.0.0",
-    "eslint-import-resolver-typescript": ">=2.4.0"
+    "@masterborn/eslint-config-frontend": "^0.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-import-resolver-typescript": "^2.4.0"
   }
 }

@@ -8,9 +8,7 @@
   },
   "private": false,
   "dependencies": {
-    "@masterborn/eslint-config-common": "^0.0.15"
-  },
-  "peerDependencies": {
+    "@masterborn/eslint-config-common": "^0.0.15",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.3",
