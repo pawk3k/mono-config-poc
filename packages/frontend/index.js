@@ -9,6 +9,7 @@ module.exports = {
   parser: "@babel/eslint-parser",
   env: {
     browser: true,
+    "jest/globals": true,
   },
   plugins: ["sort-destructure-keys"],
 };
