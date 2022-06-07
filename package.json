@@ -17,6 +17,10 @@
   "author": "MasterBorn Sp. z o.o.",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^8.17.0",
+    "prettier": "2.6.2"
+  },
+  "peerDependencies": {
     "eslint": "^8.17.0"
   },
   "repository": {
