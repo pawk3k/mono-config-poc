@@ -1,6 +1,6 @@
 {
   "name": "@masterborn/eslint-config-common",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "MasterBorn ESLint common eslint configuration",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "private": false,
   "peerDependencies": {
-    "@babel/core": ">=7.11.1",
-    "@babel/eslint-parser": ">=7.11.3",
-    "eslint-config-airbnb-base": ">=14.2.0",
-    "eslint-plugin-import": ">=2.22.0"
+    "@babel/core": "^7.18.2",
+    "@babel/eslint-parser": "^7.18.2",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
