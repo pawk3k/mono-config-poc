@@ -1,6 +1,6 @@
 {
   "name": "@masterborn/eslint-config-frontend",
-  "version": "0.0.14",
+  "version": "0.1.0",
   "description": "MasterBorn ESLint frontend configuration",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,8 @@
   "peerDependencies": {
     "eslint-plugin-jsx-a11y": ">=6.3.1",
     "eslint-config-airbnb": ">=18.2.0",
-    "eslint-plugin-react-hooks": ">=4.1.0"
+    "eslint-plugin-react-hooks": ">=4.1.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2"
   }
 }
