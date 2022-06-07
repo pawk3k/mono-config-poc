@@ -8,6 +8,6 @@
   },
   "private": false,
   "dependencies": {
-    "@masterborn/eslint-config-common": "^0.0.14"
+    "@masterborn/eslint-config-common": "^0.0.15"
   }
 }
