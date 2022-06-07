@@ -13,7 +13,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "private": false,
+  "private": true,
   "author": "MasterBorn Sp. z o.o.",
   "license": "MIT",
   "devDependencies": {
