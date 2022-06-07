@@ -1,0 +1,11 @@
+{
+  "name": "@masterborn/prettier-config",
+  "version": "0.1.0",
+  "description": "MasterBorn prettier configuration",
+  "main": "prettier.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "dependencies": {}
+}
