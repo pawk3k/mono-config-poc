@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   extends: [
-    require("@masterborn/eslint-config-backend"),
+    "@masterborn/eslint-config-backend",
     "airbnb-typescript/base",
   ],
   plugins: ["@typescript-eslint/eslint-plugin"],
