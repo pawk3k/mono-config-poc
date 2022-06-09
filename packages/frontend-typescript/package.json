@@ -8,7 +8,7 @@
   },
   "private": false,
   "dependencies": {
-    "@masterborn/eslint-config-frontend": "file:../frontend",
+    "@masterborn/eslint-config-frontend": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
     "eslint-config-airbnb-typescript": "^17.0.0",
