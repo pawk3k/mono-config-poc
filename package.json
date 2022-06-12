@@ -1,5 +1,5 @@
 {
-  "name": "@masterborn/eslint-config",
+  "name": "@pawk3k/eslint-config",
   "version": "1.0.0",
   "description": "MasterBorn ESLint configurations",
   "main": "index.js",
