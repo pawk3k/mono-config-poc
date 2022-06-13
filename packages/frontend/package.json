@@ -4,7 +4,8 @@
   "description": "MasterBorn ESLint frontend configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release -e semantic-release-monorepo"
   },
   "private": false,
   "dependencies": {
