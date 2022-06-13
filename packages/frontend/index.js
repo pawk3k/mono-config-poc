@@ -7,6 +7,9 @@ module.exports = {
     "prettier",
   ],
   parser: "@babel/eslint-parser",
+  parserOptions: {
+    requireConfigFile: "false",
+  },
   env: {
     browser: true,
     "jest/globals": true,
