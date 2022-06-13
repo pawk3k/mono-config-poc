@@ -19,5 +19,9 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-sort-destructure-keys": "^1.4.0"
   },
-  "homepage": "https://github.com/pawk3k/mono-config-poc/tree/master/packages/frontend#readme"
+  "homepage": "https://github.com/pawk3k/mono-config-poc/tree/master/packages/frontend#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawk3k/mono-config-poc.git"
+  }
 }
