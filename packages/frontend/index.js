@@ -8,7 +8,7 @@ module.exports = {
   ],
   parser: "@babel/eslint-parser",
   parserOptions: {
-    requireConfigFile: "false",
+    requireConfigFile: false,
   },
   env: {
     browser: true,
