@@ -1,7 +1,7 @@
 {
   "name": "@pawk3k/eslint-config-common1",
-  "version": "1.0.0",
   "description": "MasterBorn ESLint common eslint configuration",
+  "version": "0.0.0-development",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
