@@ -1,7 +1,6 @@
 module.exports = {
   extends: "@pawk3k/eslint-config-common1",
   parser: "@babel/eslint-parser",
-
   plugins: ["import"],
   rules: {},
   env: {
