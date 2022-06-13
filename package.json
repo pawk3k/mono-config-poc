@@ -14,7 +14,7 @@
     "eslintconfig"
   ],
   "private": true,
-  "author": "MasterBorn Sp. z o.o.",
+  "author": "MasterBorn Sp. z o.o.o",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.17.0",
