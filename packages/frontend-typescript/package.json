@@ -1,0 +1,19 @@
+{
+    "name": "@pawk3k/eslint-config-frontend-typescript",
+    "version": "0.0.0",
+    "description": "MasterBorn ESLint frontend typescript configuration",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "semantic-release": "semantic-release -e semantic-release-monorepo"
+    },
+    "private": false,
+    "dependencies": {
+        "@pawk3k/eslint-config-frontend1": "*",
+        "@typescript-eslint/eslint-plugin": "^5.27.1",
+        "@typescript-eslint/parser": "^5.27.1",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-typescript": "^2.4.0"
+    }
+}
