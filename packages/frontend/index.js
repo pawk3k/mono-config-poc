@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    "@pawk3k/eslint-config-common",
+    "@pawk3k/eslint-config-common1",
     "airbnb",
     "airbnb/hooks",
     "plugin:jest/recommended",
