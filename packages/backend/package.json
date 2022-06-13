@@ -1,0 +1,14 @@
+{
+  "name": "@masterborn/eslint-config-backend",
+  "version": "0.0.0",
+  "description": "MasterBorn ESLint backend configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release -e semantic-release-monorepo"
+  },
+  "private": false,
+  "dependencies": {
+    "@pawk3k/eslint-config-common1": "*"
+  }
+}
