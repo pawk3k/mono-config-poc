@@ -1,8 +1,7 @@
 module.exports = {
   extends: [
-    "@masterborn/eslint-config-common",
+    "@pawk3k/eslint-config-common",
     "airbnb",
-
     "airbnb/hooks",
     "plugin:jest/recommended",
     "prettier",
